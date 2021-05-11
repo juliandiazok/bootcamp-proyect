@@ -109,15 +109,28 @@ ul,li {
     align-items: center;
 }
   
-  .center { grid-area: center;
-            text-align: center; }
-  
-  .right { grid-area: right;
-            text-align: right; }
-  
-  .left { grid-area: left; 
-            text-align: left;}
-  
+.center { grid-area: center;
+        text-align: center; }
+
+.right { grid-area: right;
+        text-align: right; }
+
+.left { grid-area: left; 
+        text-align: left;}
+
+.container-flex{
+    display: flex;
+    justify-content: center;
+}
+
+.facebook {
+    margin-left: 4px;
+}
+
+.github {
+    margin-left: 4px;
+}
+
 
 /* XLarge */
 
